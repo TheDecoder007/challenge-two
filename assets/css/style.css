@@ -1,8 +1,8 @@
 
 :root {
-    --primary-color: 
-    --secondary-color:
-    --tertiary-color: 
+    --primary-color: white;
+    --secondary-color: rgb(32, 116, 241);
+    --tertiary-color: #04094d;
 }
 
 * {
@@ -58,3 +58,42 @@ header nav ul li {
     flex-wrap: wrap;
     align-items: flex-start;
 }
+
+.hero-text {
+    color: black;
+}
+
+.main-body img {
+    width: 100%;
+}
+
+.projects {
+background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.about-me {
+    background-image: url("../images/profile-pic.jpg"); 
+}
+.run-buddy {
+    background-image: url("../images/run-buddy-pic.jpg"); 
+}
+.wu-tang {
+    background-image: url("../images/wu-tang-pic.jpg");
+}
+.decentraland {
+    background-image: url("../images/decentraland-pic.png");
+}
+.nftgallery {
+    background-image: url("../images/nft-pic.png");  
+}
+.placeholder {
+    background-image: url("../images/placeholder-pic.jpg"); 
+}
+
