@@ -123,7 +123,7 @@ header nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    border-left: 5px solid black;
+    
     
 }
 
@@ -132,6 +132,7 @@ header nav ul li a:hover {
    color: black;
    display: flex;
    justify-content: center;
+   
    
 }   
 
@@ -142,7 +143,12 @@ header nav ul li a:hover {
     flex-wrap: wrap;
     justify-content: space-around;
     border-radius: 25%;
-       
+}
+
+.project-images a img {
+    border-radius: 15px;
+    border: 5px solid var(--secondary-color);
+    box-shadow: 0 0 10px var(--tertiary-color);
 }
 
 .project-images:hover {
@@ -162,8 +168,8 @@ header nav ul li a:hover {
 }
 
 .project-title a:hover {
-    color: white;
-    text-shadow: 0 0 10px var(--tertiary-color);
+    color: whitesmoke;
+    text-shadow: 0 0 10px var(--secondary-color);
 }
  
 
@@ -187,7 +193,9 @@ header nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    
+    color: var(--tertiary-color);
+    text-shadow: 0 0 10px var(--secondary-color);
+        
 }
 
 .contact ul {
