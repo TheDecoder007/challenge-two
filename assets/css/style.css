@@ -73,17 +73,18 @@ header nav ul li a:hover {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
-    background-position: 80%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
+    height: 200px;
+    
 }
 
 .hero-text {
     color: var(--primary-color);
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    
 }
 /* HERO STYLE END */
 
@@ -118,57 +119,76 @@ header nav ul li a:hover {
 /* MY WORK STYLING BEGIN */
 
 .projects {
-    width: 100%;
-    margin: 0 auto;
+    
+    margin: 10px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-           
+    justify-content: center;
+    flex-direction: column;
+}    
+
+    .project-card {
+        
+        margin: 20px;
+        color: black;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        flex-direction: row;
+        justify-content: center;
+}
+       
+    .project-images {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        border-radius: 25%;
 }
 
-.project-card {
-   margin: 20px;
-   color: black;
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   flex-grow: 1;
-}
-
-.nftgallery {
-    flex-grow: 4;
-}
-
-.project-images {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
+/* .nftgallery {
+    
+    display:flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    border-radius: 25%;
+    flex: 100%;
+    justify-content: center;
+    align-items: flex-start;
+
+} */
+
+.last-four {
+   
+    display:flex;
+    flex-wrap: wrap;
+    flex: 50%;
+    justify-content: center;
+
 }
+
+
 
 .project-images a img {
     border-radius: 15px;
     border: 5px solid var(--secondary-color);
     box-shadow: 0 0 10px var(--tertiary-color);
+    height: 100%;
+    width: 100%;
 }
 
 
 
 .project-images:hover {
-  /*  background: var(--primary-color);
-    color: var(--secondary-color); */
-    opacity: 65%;
-    border-radius: 15px;
-    
+      opacity: 65%;
+    border-radius: 15px; 
 }
 
-.project-card footer a  {
+.project-card .image-text a  {
     color: var(--tertiary-color);
 }
 
-.project-card footer h4 {
+.project-card .image-text h4 {
     font-style: italic;
 }
 
