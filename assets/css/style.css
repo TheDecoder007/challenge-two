@@ -74,6 +74,9 @@ header nav ul li a:hover {
     background-size: cover;
     background-position: center;
     height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     
 }
 
@@ -82,37 +85,50 @@ header nav ul li a:hover {
     padding: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    
-    
+    justify-content: center; 
+    text-align: center;      
+}
+
+.hero-text h2 {
+    font-size: 35px;
+    text-shadow: 0 0 4px white;
+}
+
+.hero-text p {
+    font-size: 25px;
 }
 /* HERO STYLE END */
-
-/* .main-body img {
-    width: 100%;
-} */
 
 
 /* ABOUT ME STYLING BEGIN*/
 
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 20px 0px;
+}
 
-.about p {
+.paragraph {
     color: var(--tertiary-color); 
     font-size: large;
     padding: 10px;
-    display: flex;
+    text-align: center;
+    
+  /*  display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    flex-direction: row;
+    justify-content: flex-end; */
+    
+   
     font-style: italic;
     
 }
 
 .about-image {
     padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
     justify-content: flex-start;
-}
+}   
 
 /* ABOUT ME STYLING END */
 
@@ -199,13 +215,10 @@ header nav ul li a:hover {
  
 
 .section-title {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
     color: var(--tertiary-color);
-    text-shadow: 0 0 10px var(--secondary-color);       
+    font-size: xx-large; 
+    
 }
-
 /* MY WORK STYLING END */
 
 /* CONTACT ME SECTION STYLING BEGIN */
