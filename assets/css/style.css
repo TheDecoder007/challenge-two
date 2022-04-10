@@ -33,25 +33,34 @@ header h1 a {
     color: white;
 }
 
+header h1 a:hover {
+    color: var(--tertiary-color);
+}
+
 header nav ul {
-    color: white;
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    
 }
 
 header nav ul li {
-    color: white;
-    padding: 10px 15px;
     
+    padding: 10px 15px;   
     font-size: 2vw;
-    text-shadow: 0 0 10px rgba(177, 172, 172, 0.5);
-
+    
 }
 
+header nav ul li a {
+    color: var(--primary-color);
+    text-shadow: 0 0 10px rgba(243, 234, 234, 0.5);
+}
+
+header nav ul li a:hover {
+    color: white;
+}
 /* HEADER STYLING END*/
  
 /*HERO STYLING START*/
@@ -81,9 +90,6 @@ header nav ul li {
 
 /* ABOUT ME STYLING BEGIN*/
 
-.about {
-    
-}
 
 .about p {
     display: flex;
@@ -170,4 +176,12 @@ header nav ul li {
     align-items: center;
     list-style: none;
     padding: 30px 20px;
+    color: var(--tertiary-color);
+}
+
+.contact ul li h3 a {
+    color: var(--tertiary-color);
+}
+.contact ul li h3 a:hover {
+    color: whitesmoke;
 }
