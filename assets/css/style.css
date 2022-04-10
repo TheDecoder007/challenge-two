@@ -68,6 +68,30 @@ header nav ul li {
     width: 100%;
 } */
 
+
+/* ABOUT ME STYLING BEGIN*/
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.about p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.about-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+/* ABOUT ME STYLING END */
+
 /* MY WORK STYLING BEGIN */
 
 .projects {
@@ -77,21 +101,44 @@ header nav ul li {
     flex-wrap: wrap;
     justify-content: space-around;
     border-left: 5px solid black;
+    
 }
 
 .project-title {
    margin: 20px;
-   color: var(--primary-color);
+   color: black;
    flex: 1;
 }   
 
+.project-images {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.project-images:hover {
+  /*  background: var(--primary-color);
+    color: var(--secondary-color); */
+    opacity: 50%;
+    border-radius: 15px;
+    text-shadow: none;
+    
+    
+}
+
 .about {
    /* background-image: url("../images/profile-pic.jpg"); */
-    color: black;
+    
 }
   .run-buddy {
-   color: black;
+      flex-grow: 3;
+   
 } 
+
+/* COMMENTED OUT
 .wu-tang {
     background-image: url("../images/wu-tang-pic.jpg");
 }
@@ -106,9 +153,18 @@ header nav ul li {
     background-image: url("../images/placeholder-pic.jpg"); 
 }
 
+*/
 .section-title {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
