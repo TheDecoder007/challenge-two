@@ -1,8 +1,8 @@
 
 :root {
-    --primary-color: white;
-    --secondary-color: rgb(32, 116, 241);
-    --tertiary-color: #04094d;
+    --primary-color: rgb(184, 178, 178);
+    --secondary-color: rgb(88, 71, 71);
+    --tertiary-color: #050507;
 }
 
 * {
@@ -12,22 +12,29 @@
 }
 
 body {
-    color: var(--tertiary-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
     font-family: Helvetica, Arial, sans-serif;
 }
 
 /* HEADER STYLING START*/
 
 header {
+    
     padding: 20px 35px;
     background-color: var(--tertiary-color);
+    
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
    
 }
+header h1 a {
+    color: white;
+}
 
 header nav ul {
+    color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -37,10 +44,12 @@ header nav ul {
 }
 
 header nav ul li {
+    color: white;
     padding: 10px 15px;
-    font-weight: lighter;
-    font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+    font-size: 2vw;
+    text-shadow: 0 0 10px rgba(177, 172, 172, 0.5);
+
 }
 
 /* HEADER STYLING END*/
@@ -61,6 +70,7 @@ header nav ul li {
 
 .hero-text {
     color: black;
+    padding: 10px;
 }
 /* HERO STYLE END */
 
@@ -72,10 +82,7 @@ header nav ul li {
 /* ABOUT ME STYLING BEGIN*/
 
 .about {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    list-style: none;
+    
 }
 
 .about p {
@@ -87,7 +94,7 @@ header nav ul li {
 .about-image {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 /* ABOUT ME STYLING END */
@@ -107,7 +114,9 @@ header nav ul li {
 .project-title {
    margin: 20px;
    color: black;
-   flex: 1;
+   display: flex;
+   justify-content: center;
+
 }   
 
 .project-images {
@@ -122,21 +131,14 @@ header nav ul li {
 .project-images:hover {
   /*  background: var(--primary-color);
     color: var(--secondary-color); */
-    opacity: 50%;
+    opacity: 60%;
     border-radius: 15px;
     text-shadow: none;
     
     
 }
 
-.about {
-   /* background-image: url("../images/profile-pic.jpg"); */
-    
-}
-  .run-buddy {
-      flex-grow: 3;
-   
-} 
+ 
 
 /* COMMENTED OUT
 .wu-tang {
@@ -161,10 +163,11 @@ header nav ul li {
     
 }
 
-.contact {
+.contact ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     list-style: none;
+    padding: 30px 20px;
 }
