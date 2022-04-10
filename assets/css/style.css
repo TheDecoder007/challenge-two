@@ -61,6 +61,10 @@ header nav ul li a {
 header nav ul li a:hover {
     color: white;
 }
+
+.section-title {
+    padding: 15px;
+}
 /* HEADER STYLING END*/
  
 /*HERO STYLING START*/
@@ -92,12 +96,14 @@ header nav ul li a:hover {
 
 
 .about p {
+    padding: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
 }
 
 .about-image {
+    padding: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
