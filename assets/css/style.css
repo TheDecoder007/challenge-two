@@ -62,28 +62,36 @@ header nav ul li {
 .hero-text {
     color: black;
 }
+/* HERO STYLE END */
 
-.main-body img {
+/* .main-body img {
     width: 100%;
-}
+} */
+
+/* MY WORK STYLING BEGIN */
 
 .projects {
-background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: 80%;
+    width: 100%;
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    align-items: flex-start;
+    justify-content: space-around;
+    border-left: 5px solid black;
 }
 
-.about-me {
-    background-image: url("../images/profile-pic.jpg"); 
+.project-title {
+   margin: 20px;
+   color: var(--primary-color);
+   flex: 1;
+}   
+
+.about {
+   /* background-image: url("../images/profile-pic.jpg"); */
+    color: black;
 }
-.run-buddy {
-    background-image: url("../images/run-buddy-pic.jpg"); 
-}
+  .run-buddy {
+   color: black;
+} 
 .wu-tang {
     background-image: url("../images/wu-tang-pic.jpg");
 }
@@ -92,8 +100,15 @@ background-size: cover;
 }
 .nftgallery {
     background-image: url("../images/nft-pic.png");  
+    color: black;
 }
 .placeholder {
     background-image: url("../images/placeholder-pic.jpg"); 
 }
 
+.section-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+}
