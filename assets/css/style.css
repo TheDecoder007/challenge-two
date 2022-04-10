@@ -1,8 +1,8 @@
 
 :root {
-    --primary-color: rgb(184, 178, 178);
-    --secondary-color: rgb(88, 71, 71);
-    --tertiary-color: #050507;
+    --primary-color: rgb(206, 206, 206);
+    --secondary-color: rgb(94, 94, 94);
+    --tertiary-color: #080808;
 }
 
 * {
@@ -55,7 +55,7 @@ header nav ul li {
 
 header nav ul li a {
     color: var(--primary-color);
-    text-shadow: 0 0 10px rgba(243, 234, 234, 0.5);
+    text-shadow: 0 0 10px rgb(223, 220, 220);
 }
 
 header nav ul li a:hover {
@@ -82,7 +82,7 @@ header nav ul li a:hover {
 }
 
 .hero-text {
-    color: black;
+    color: var(--primary-color);
     padding: 10px;
 }
 /* HERO STYLE END */
@@ -96,10 +96,14 @@ header nav ul li a:hover {
 
 
 .about p {
+    color: var(--tertiary-color); 
+    font-size: large;
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
+    font-style: italic;
+    text-shadow: 0 0 10px var(--secondary-color);
 }
 
 .about-image {
@@ -128,7 +132,7 @@ header nav ul li a:hover {
    color: black;
    display: flex;
    justify-content: center;
-
+   
 }   
 
 .project-images {
@@ -137,19 +141,30 @@ header nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    
+    border-radius: 25%;
+       
 }
 
 .project-images:hover {
   /*  background: var(--primary-color);
     color: var(--secondary-color); */
-    opacity: 60%;
+    opacity: 65%;
     border-radius: 15px;
-    text-shadow: none;
-    
     
 }
 
+.project-title footer a  {
+    color: var(--tertiary-color);
+}
+
+.project-title footer h4 {
+    font-style: italic;
+}
+
+.project-title a:hover {
+    color: white;
+    text-shadow: 0 0 10px var(--tertiary-color);
+}
  
 
 /* COMMENTED OUT
@@ -183,6 +198,7 @@ header nav ul li a:hover {
     list-style: none;
     padding: 30px 20px;
     color: var(--tertiary-color);
+    text-shadow: 0 0 10px var(--secondary-color);
 }
 
 .contact ul li h3 a {
@@ -191,3 +207,6 @@ header nav ul li a:hover {
 .contact ul li h3 a:hover {
     color: whitesmoke;
 }
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+
