@@ -163,6 +163,7 @@ header nav ul li a:hover {
         padding: 10px;
         flex-direction: row;
         justify-content: center;
+        text-align: center;
 }
        
     .project-images {
@@ -249,5 +250,32 @@ header nav ul li a:hover {
 
 /* CONTACT ME STYLING END */
 
-/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+
+@media screen and (max-width: 575px) {
+    .about-title {
+        text-align: center;
+    }
+
+    .image-p {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .section-title {
+        text-align: center;
+    }
+
+    header {
+        flex-direction: column;
+    }
+    header h1  {
+        text-align: center;
+    }
+    header nav ul li {
+        font-size: 60%;
+        padding-top: 20px;
+             
+    }
+}
 
