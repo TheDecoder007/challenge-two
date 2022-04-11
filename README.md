@@ -15,7 +15,7 @@ github link https://github.com/TheDecoder007/challenge-two
 * Footer contains a link to my GitHub page
 * Images provide links to past/future projects
 
-
+Deploy link: https://thedecoder007.github.io/challenge-two/
 
 
 
