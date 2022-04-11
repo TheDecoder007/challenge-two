@@ -1,16 +1,18 @@
 # challenge-two
 Challenge Two - My Portfolio
 
-## Built with
-*HTML
-*CSS
+The Goal is to provide future employers with an online portfolio to view my capabilities.
 
-## GITHUB LINK
+## Built with
+* HTML
+* CSS
+
+## GitHub Link
 github link https://github.com/TheDecoder007/challenge-two
 
-## OTHER INFO
-Links to my resume in header and footer
-images provide links to past/future projects
+## Other Info
+* Links to my resume in header and footer
+* Images provide links to past/future projects
 
 
 
