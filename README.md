@@ -17,6 +17,7 @@ github link https://github.com/TheDecoder007/challenge-two
 
 Deploy link: https://thedecoder007.github.io/challenge-two/
 
+![Screenshot (672)](https://user-images.githubusercontent.com/101135574/162651933-dfce82d6-2b92-464c-9696-34b6d99d8dbf.png)
 
 
 
