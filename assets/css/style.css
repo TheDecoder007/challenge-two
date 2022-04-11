@@ -90,7 +90,7 @@ header nav ul li a:hover {
 }
 
 .hero-text h2 {
-    font-size: 35px;
+    font-size: 30px;
     text-shadow: 0 0 4px white;
 }
 
@@ -102,31 +102,40 @@ header nav ul li a:hover {
 
 /* ABOUT ME STYLING BEGIN*/
 
-.about {
+ .about {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     margin: 20px 0px;
+    border-bottom: 5px dotted var(--secondary-color);
+    
+} 
+ 
+.about-title {
+    color: var(--tertiary-color);
+    font-size: xx-large;
+    padding: 15px;
+    padding-bottom: 0px;
 }
 
-.paragraph {
-    color: var(--tertiary-color); 
+.image-p {
+    display: flex;
+    justify-content: center;
+    color: var(--tertiary-color);
     font-size: large;
+    font-style: italic;
     padding: 10px;
     text-align: center;
-    
-  /*  display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: flex-end; */
-    
-   
-    font-style: italic;
-    
+}
+ 
+.paragraph {
+    padding-left: 20px;
+
 }
 
 .about-image {
-    padding: 10px;
+    padding-left: 3px;
+    padding-top: 0;
     justify-content: flex-start;
 }   
 
@@ -141,6 +150,8 @@ header nav ul li a:hover {
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
+    padding-bottom: 20px;
+    
 }    
 
     .project-card {
@@ -196,7 +207,7 @@ header nav ul li a:hover {
 
 
 .project-images:hover {
-      opacity: 65%;
+    opacity: 65%;
     border-radius: 15px; 
 }
 
@@ -217,8 +228,13 @@ header nav ul li a:hover {
 .section-title {
     color: var(--tertiary-color);
     font-size: xx-large; 
-    
 }
+
+.work {
+    border-bottom: 5px dotted var(--secondary-color);
+}
+    
+
 /* MY WORK STYLING END */
 
 /* CONTACT ME SECTION STYLING BEGIN */
@@ -229,7 +245,7 @@ header nav ul li a:hover {
     justify-content: space-around;
     align-items: center;
     list-style: none;
-    padding: 30px 20px;
+    padding: 10px 15px 40px 15px;
     color: var(--tertiary-color);
     text-shadow: 0 0 10px var(--secondary-color);
 }
