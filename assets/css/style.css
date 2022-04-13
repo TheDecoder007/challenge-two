@@ -180,12 +180,14 @@ header nav ul li a:hover {
    
     display:flex;
     flex-wrap: wrap;
-    flex: 50%;
+    flex: 1;
     justify-content: center;
 
 }
 
-
+.nftgallery {
+    flex-grow: 2;
+}
 
 .project-images a img {
     border-radius: 15px;
@@ -194,6 +196,7 @@ header nav ul li a:hover {
     height: 100%;
     width: 100%;
 }
+
 
 
 
