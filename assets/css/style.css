@@ -225,6 +225,7 @@ header nav ul li a:hover {
 }
 
 .work {
+    
     border-bottom: 5px dotted var(--secondary-color);
 }
     
